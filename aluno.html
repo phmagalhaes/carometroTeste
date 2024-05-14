@@ -31,7 +31,7 @@
             </div>
             <div>
                 <div class="alunoPage_content_information">
-                    <form action="?pagina=aluno&metodo=update&cpf={{aluno.cpf}}" id="formAluno" method="post">
+                    <form action="" id="formAluno">
                         <div>
                             <h2>Email</h2>
                             <input class="inputAluno" type="text" name="email" value="{{aluno.email}}">
@@ -74,7 +74,7 @@
                 </div>
                 <div class="alunoPage_formOcorrencia">
                     <h2>Adicionar ocorrência</h2>
-                    <form action="?pagina=aluno&metodo=insert&cpf={{aluno.cpf}}" method="post">
+                    <form action="">
                         <div>
                             <input type="text" name="cpfAluno" value="{{aluno.cpf}}" class="inputCpfAluno">
                             <select name="tema" required>
